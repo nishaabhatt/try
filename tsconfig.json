@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tailwind.config.js", "src/components/Footer.jsx", "src/components/Sidebar.js", "src/components/MobNavbar.js", "src/components/TopTrendingItems.jsx", "src/components/TopTrendingCategories.jsx", "src/components/TopSunglasses.jsx", "src/components/Testimonial.jsx", "src/components/Slide.jsx", "src/components/ProductDetailsCarousel.jsx", "src/components/ProductCard2.jsx", "src/components/ProductC1.jsx", "src/components/Navbar.jsx", "src/components/HotNewPicks.jsx", "src/components/Hero.tsx", "src/components/HeaderTop.jsx", "src/components/HeaderMain.jsx", "src/components/BannerPortion2.jsx", "src/components/BannerPortion1.jsx", "src/components/Banner1.Jsx", "src/app/page.js", "src/app/layout.jsx", "src/app/womens/page.jsx", "src/app/mencat/page.jsx", "src/components/ProductDetailsCarousel.jsx"],
+  "exclude": ["node_modules"]
+}
